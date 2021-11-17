@@ -51,13 +51,19 @@ int main()
     getline(cin, input);
     for (size_t i = 0; i < input.size(); i++)
     {
-        if (i == input.size() - 1 && input[i] != ' ')
+        if (i == 0 && input[i] == ' ')
         {
             tmp += input[i];
             words.push_back(tmp);
             tmp.clear();
         }
-        if (input[i] == ' ' && input[i - 1] != ' ')
+        else if (i == input.size() - 1 && input[i] != ' ')
+        {
+            tmp += input[i];
+            words.push_back(tmp);
+            tmp.clear();
+        }
+        else if (input[i] == ' ' && input[i - 1] != ' ')
         {
             words.push_back(tmp);
             words.push_back(" ");
