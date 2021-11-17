@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (DL_Distance.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Test.cpp
+C:\Users\sanzh\source\repos\Test\Test.cpp(133,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sanzh\source\repos\Test\Test.cpp(149,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sanzh\source\repos\Test\Test.cpp(201,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sanzh\source\repos\Test\Test.cpp(291,26): warning C4018: <: несоответствие типов со знаком и без знака
+  DL_Distance.vcxproj -> C:\Users\sanzh\source\repos\Test\Debug\Test.exe
